@@ -1,0 +1,24 @@
+{
+  "name": "modulo_34",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villanelle3/modulo_34.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villanelle3/modulo_34/issues"
+  },
+  "homepage": "https://github.com/villanelle3/modulo_34#readme",
+  "devDependencies": {
+    "cypress": "^12.6.0"
+  }
+}
