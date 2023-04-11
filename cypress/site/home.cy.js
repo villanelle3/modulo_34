@@ -8,3 +8,5 @@ describe('Testes para a homepage', () => {
         // cy.get('.lista li').last().should('have.text', 'Walk the dog')
     })
 })
+
+// npm run cypress open
