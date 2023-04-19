@@ -25,7 +25,9 @@ describe('Editar contato', () => {
     })
     it('Edita contato com sucesso', () => {
         cy.get('.edit').should('be.visible').first().click()
+        cy.get('input[placeholder*="Nome"]').focus().clear()
         cy.get('input[placeholder*="Nome"]').should('be.visible').type('Antonio Novo')
+        cy.get('input[placeholder*="E-mail"]').focus().clear()
         cy.get('input[placeholder*="E-mail"]').should('be.visible').type('novoemail@example.com')
         cy.get('button[type="submit"]').should('be.visible').click()
     })
