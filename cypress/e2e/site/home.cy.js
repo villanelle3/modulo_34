@@ -33,4 +33,13 @@ describe('Editar contato', () => {
     })
 })
 
+describe('Deleta contato', () => {
+    beforeEach(() => {
+        cy.visit("https://agenda-contatos-react.vercel.app/")
+    })
+    it('Deleta contato com sucesso', () => {
+        cy.get('.delete').should('be.visible').click({ multiple: true })
+    })
+})
+
 // npm run cypress open
